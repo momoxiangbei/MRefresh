@@ -6,7 +6,6 @@ import android.support.v7.widget.RecyclerView;
 public abstract class RecyclerViewLoadMore extends RecyclerView.OnScrollListener {
 
     private int currentPage = 1;
-    private boolean loading = true;
 
     private LinearLayoutManager mLinearLayoutManager;
 
